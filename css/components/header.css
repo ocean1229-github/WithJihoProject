@@ -1,0 +1,51 @@
+header {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 75px;
+    z-index: 10;
+    transition: background-color 1s ease,
+                box-shadow 1s ease;
+  }
+
+  #header-icon {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 35px;
+  }
+  
+  #header-title {
+    float: left;
+    font-family: 'Vibur';
+    font-size: 40px;
+    line-height: 75px;
+    color: black;
+    margin-left: 10px;
+  }
+  
+  #header-login, #header-signup {
+    height: fit-content;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-weight: 500;
+  }
+  
+  #header-login:hover {
+    text-decoration: underline;
+  }
+  
+  #header-signup {
+    color: rgb(238,0,197);
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #header-right {
+    float: right;
+    height: 75px;
+    display: flex;
+    align-items: center;
+  }
