@@ -6,25 +6,27 @@
 
 /* screens */
 
-.main__gif{
+body{
     width: 100%;
+    font-family: "Open Sans" sans-serif;
 }
 
-.top-section {
-    position: flex;
-    top: 0px;
-    min-height: 600px;
-    background-color: rgb(64, 84, 170);
-  }
-  
-.top-top {
-    position: relative;
-    left: 50%;
-    transform: translate(-77%);
-    width: fit-content;
-    top: 150px;
+.top-top__gif{
+    width: 100%;
+    position: absolute;
+}
+
+.top-section{
+    width: 100%;
+    display: relative;
+    height:432px;
 }
   
+.top-top{
+    align-items: center;
+    justify-content: center;
+}
+
 .top-title {
     position: relative;
     color: white;
@@ -34,6 +36,8 @@
     font-weight: 800;
     margin-bottom: 15px;
     width: 400px;
+    right: -350px;
+    top: 230px;
 }
   
 .top-content {
@@ -45,38 +49,9 @@
     margin-bottom: 25px;
     width: 400px;
     line-height: 1.5;
-}
-  
-.top-mail {
-    padding: 15px;
-    border-radius: 5px;
-    width: 350px;
-    font-size: 20px;
-    outline: 0px;
-    border: 0px;
-}
-  
-.top-mail-button {
-    padding: 15px;
-    border-radius: 5px;
-    outline: 0px;
-    border: 0px;
-    font-size: 20px;
-    color: white;
-    font-weight: 500;
-    letter-spacing: -1px;
-    background-color: rgb(119, 0, 255);
-    margin-left: 5px;
-    position: relative;
-    z-index: 1;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-}
-  
-.top-mail-button:hover {
-    background-color: rgb(120, 0, 189);
-    transition: background-color 0.5s ease;
-}
+    right: -350px;
+    top: 230px;
+}  
   
 .top-image {
     position: absolute;
