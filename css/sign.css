@@ -89,6 +89,7 @@ h2{
   border:none;
   cursor:pointer;
   display:inline;
+  background: linear-gradient(125deg,#81ecec,#6c5ce7,#81ecec);
 }
 
 .bottomText {
