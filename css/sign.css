@@ -1,28 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;600&family=Yellowtail&display=swap");
-@import "reset.css/";
 
 *{
+  margin: 0px;
+  padding: 0px;
+  
   font-family:sans-serif;
 }
 
 body {
-<<<<<<< HEAD
-  width: 100px;
-  height: 100vh; 
-=======
   width: 100%;
   height: 100vh;
   background-image: url("../image/login.jpg");
   background-image: no-repeat;
   background-size: 100%;
->>>>>>> 8845bda3b2ee50a6560d51dd6828bc4f41e9008b
 }
 
-.login-back{  
-  position:absolute;
-  width: 100%;
-
-}
 
 header {
   display: inline-block;  
@@ -38,6 +30,7 @@ header {
 }
 
 .header-middle__logo{
+    
   margin: auto;
   width: 300px;
   height: 200px;   
@@ -50,7 +43,6 @@ header {
   margin : auto;
 
   text-align:center;
-  
 }
 
 h2{

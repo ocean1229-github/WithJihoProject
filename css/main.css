@@ -7,18 +7,18 @@
 /* screens */
 
 body{
-    width: 100%;
     font-family: "Open Sans" sans-serif;
+    background-image: url("../image/main01.gif");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .top-top__gif{
-    width: 100%;
     position: absolute;
 }
 
 .top-section{
     width: 100%;
-    display: relative;
     height:432px;
 }
   
