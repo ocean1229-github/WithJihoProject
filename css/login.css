@@ -6,16 +6,11 @@
 }
 
 body {
-<<<<<<< HEAD
-  width: 100px;
-  height: 100vh; 
-=======
   width: 100%;
   height: 100vh;
   background-image: url("../image/login.jpg");
-  background-image: no-repeat;
+  background-repeat: no-repeat;
   background-size: 100%;
->>>>>>> 8845bda3b2ee50a6560d51dd6828bc4f41e9008b
 }
 
 .login-back{  
