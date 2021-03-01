@@ -32,15 +32,12 @@ header {
 .header-login, .header-signup {
     height: fit-content;
     text-decoration: none;
-    color: black;
+    color: rgba(255, 255, 255, 0.6);
     margin-right: 20px;
     font-weight: 500;
+    transition: 0.3s ease
 }
   
-.header-signup {
-    color: rgb(116, 117, 197);
-    background-color: white;
-    padding: 10px;
-    border-radius: 5px;
-}
-  
+.header-login:hover, .header-signup:hover{
+    text-decoration: underline
+} 
